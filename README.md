@@ -1,7 +1,7 @@
 # queries
 **It's a metric used to measure the number of requests a system receives and processes per second.**
 
-**OPTIMIZING READ PERFORMANCE IN DISTRIBUTED SYSTEMS WITH LEASE-BASED LATENCY**\
+**OPTIMIZING READ PERFORMANCE IN DISTRIBUTED SYSTEMS WITH LEASE-BASED LATENCY**
 * Author: 
 * Published In : 
 * Publication Date:
@@ -10,7 +10,7 @@
 * Link:
 
 **Abstract**:\
-ETCD is a distributed key-value store that ensures high availability and strong consistency using the Raft consensus protocol. It supports two types of read operations: linearizable reads, which guarantee the most up-to-date data but with higher latency, and serializable reads, which offer lower latency with slightly stale data. This paper focuses on improving performance issues caused by linearizable reads by leveraging serializable read operations. By balancing consistency and efficiency, the approach enhances ETCD’s scalability and responsiveness. This makes ETCD more adaptable for diverse distributed system needs.
+In distributed systems like etcd, read index latency impacts the speed and efficiency of strongly consistent read operations. Etcd’s read index ensures linearizability by coordinating between follower and leader nodes, but this process introduces increased latency as cluster size grows. Higher latency can hinder performance in applications requiring fast, frequent reads. This paper proposes a lease-based approach to reduce read index latency while maintaining consistency. The method aims to balance responsiveness and data accuracy in large-scale etcd deployments.
 
 **Key Contributions:** 
 * **Algorithm Development** \
@@ -33,13 +33,13 @@ ETCD is a distributed key-value store that ensures high availability and strong 
 **Experimental Results (Summary)**
 
 
-| Cluster Size (Nodes) | Linearizable Read QPS | Serializable Read QPS | Improvement (%) |
-| ---------------------| --------------------- | --------------------- | ----------------|
-| 3                    | 1200                  | 1350                  | 12.5            |
-| 5                    | 1050                  | 1250                  | 19.0            |
-| 7                    | 900                   | 1100                  | 22.2            |
-| 9                    | 800                   | 1050                  | 31.3            |
-| 11                   | 700                   |  950                  | 35.7            |
+| Cluster Size (Nodes) | ReadIndex Latency (ms) | Lease-Based Latency (ms)| Improvement (%) |
+| ---------------------| --------------------- | --------------------- | -------------------|
+| 3                    | 3                     | 0.2                   | 93.33              |
+| 5                    | 5                     | 0.3                   | 94.0               |
+| 7                    | 7                     | 0.4                   | 94.29              |
+| 9                    | 9                     | 0.5                   | 94.44              |
+| 11                   | 11                    | 0.6                   | 94.55              |
 
 **Citation**
 * **OPTIMIZING READ PERFORMANCE IN DISTRIBUTED KEY-VALUE STORES USING SERIALIZABLE CONSISTENCY**
