@@ -14,15 +14,15 @@ In distributed systems like etcd, read index latency impacts the speed and effic
 
 **Key Contributions:** 
 * **Algorithm Development** \
-  Designed and optimized Serializable Read methodology targetting high number of query processing per second.
+  Designed and optimized Lease based latency methodology targetting by reducing the latency.
 * **Performance Comparison** \
-  Conducted bench marking between Linearizable Read qps and Serializable Read qps.
+  Conducted bench marking between ReadIndex Latency and Lease Based Latency.
 * **Reserach Leadership**
   Led the research and technical implementation , focusing on advancing distributed database through algorithm innovation.
 
 **Relevance & Real-World Impact**
 * **Kubernetes infrastructure optimization:**\
-    Enhances distributed key-value store performance by improving the number of queries to process per second.
+    Enhances distributed key-value store performance by reducing the read latency.
 * **Query Processing Improvement:** \
     need to add here
 * **Academic Recognition :** \
@@ -34,15 +34,15 @@ In distributed systems like etcd, read index latency impacts the speed and effic
 
 
 | Cluster Size (Nodes) | ReadIndex Latency (ms) | Lease-Based Latency (ms)| Improvement (%) |
-| ---------------------| --------------------- | --------------------- | -------------------|
-| 3                    | 3                     | 0.2                   | 93.33              |
-| 5                    | 5                     | 0.3                   | 94.0               |
-| 7                    | 7                     | 0.4                   | 94.29              |
-| 9                    | 9                     | 0.5                   | 94.44              |
-| 11                   | 11                    | 0.6                   | 94.55              |
+| ---------------------| --------------------- | ------------------------ | ----------------|
+| 3                    | 3                     | 0.2                      | 93.33           |
+| 5                    | 5                     | 0.3                      | 94.0            |
+| 7                    | 7                     | 0.4                      | 94.29           |
+| 9                    | 9                     | 0.5                      | 94.44           |
+| 11                   | 11                    | 0.6                      | 94.55           |
 
 **Citation**
-* **OPTIMIZING READ PERFORMANCE IN DISTRIBUTED KEY-VALUE STORES USING SERIALIZABLE CONSISTENCY**
+* **OPTIMIZING READ PERFORMANCE IN DISTRIBUTED KEY-VALUE STORES BY REDUCING THE READ LATENCY**
 *   Naveen Srikanth Pasupuleti
 *   International Journal of
 *   E-ISSN- 
