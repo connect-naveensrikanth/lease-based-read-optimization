@@ -51,7 +51,7 @@ In distributed systems like etcd, read index latency impacts the speed and effic
 * This research is shared for a academic and research purposes. For commercial use, please contact the author.
 
 **Resources**
-* IJLRP Site: https://www.ijlrp.com/
+* https://www.ijlrp.com/
 
 **Author Contact** 
   * LinkedIn: https://www.linkedin.com/in/naveensrikanth/
