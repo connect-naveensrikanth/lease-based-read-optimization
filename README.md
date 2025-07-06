@@ -1,16 +1,16 @@
-# latency
-**It's a metric used to measure the number of requests a system receives and processes per second.**
-
-**OPTIMIZING READ PERFORMANCE IN DISTRIBUTED SYSTEMS WITH LEASE-BASED LATENCY**
+# Optimizing Read Performance in Distributed Systems With Lease-Based Latency
 * Author: Naveen Srikanth Pasupuleti
 * Published In : International Journal of Leading Research Publication (IJLRP)
-* Publication Date: 02-2023
+* Publication Date: February 2023
 * E-ISSN: 2582-8010
 * Impact Factor: 9.56
-* Link: https://www.ijlrp.com/research-paper.php?id=1583
+* Link: [Read the paper](https://www.ijlrp.com/research-paper.php?id=1583)
 
 **Abstract**:\
 In distributed systems like etcd, read index latency impacts the speed and efficiency of strongly consistent read operations. Etcd’s read index ensures linearizability by coordinating between follower and leader nodes, but this process introduces increased latency as cluster size grows. Higher latency can hinder performance in applications requiring fast, frequent reads. This paper proposes a lease-based approach to reduce read index latency while maintaining consistency. The method aims to balance responsiveness and data accuracy in large-scale etcd deployments.
+
+**Latency**:\
+Latency is a metric used to measure the time delay in processing requests in a system.
 
 **Key Contributions:** 
 * **Algorithm Development** \
@@ -42,16 +42,16 @@ In distributed systems like etcd, read index latency impacts the speed and effic
 | 11                   | 11                    | 0.6                      | 94.55           |
 
 **Citation**
-* **OPTIMIZING READ PERFORMANCE IN DISTRIBUTED KEY-VALUE STORES BY REDUCING THE READ LATENCY**
+* **Optimizing Read Performance in Distributed Key-Value Stores by Reducing the Read Latency**
 *   Naveen Srikanth Pasupuleti
 *   International Journal of Leading Research Publication
 *   E-ISSN-2582-8010
 
 **License**
-* This research is shared for a academic and research purposes. For commercial use, please contact the author.
+* This research is shared for academic and research purposes. For commercial use, please contact the author.
 
 **Resources**
-* https://www.ijlrp.com/
+* [IJLRP Website](https://www.ijlrp.com/)
 
 **Author Contact** 
   * LinkedIn: https://www.linkedin.com/in/naveensrikanth/
