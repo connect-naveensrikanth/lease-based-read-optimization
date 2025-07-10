@@ -17,7 +17,7 @@ Latency is a metric used to measure the time delay in processing requests in a s
   Designed and optimized Lease based latency methodology targetting by reducing the latency.
 * **Performance Comparison:** \
   Conducted bench marking between ReadIndex Latency and Lease Based Latency.
-* **Reserach Leadership:**
+* **Reserach Leadership:** \
   Led the research and technical implementation , focusing on advancing distributed database through algorithm innovation.
 
 **Relevance & Real-World Impact:**
