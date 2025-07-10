@@ -22,11 +22,12 @@ Latency is a metric used to measure the time delay in processing requests in a s
 
 **Relevance & Real-World Impact**
 * **Kubernetes infrastructure optimization:**\
-    Enhances distributed key-value store performance by reducing the read latency.
-* **Query Processing Improvement:** \
-    need to add here
-* **Academic Recognition :** \
-    need to add here
+    Boosts distributed key-value store efficiency by minimizing read latency through intelligent lease management.
+* **Read Latency Optimization:** \
+    Lease-Based reads maintain consistently low latency as cluster size increases, improving responsiveness for read-intensive workloads. This approach reduces coordination overhead compared to quorum-based methods, enhancing overall query performance. \
+  
+* ** Academic Recogition: **\
+  Featured in academic publications and technical reports centered on DNS resolution processes and efficiency gains within ETCD systems.
 * **Educational Impact:** \
     need to add here
 
