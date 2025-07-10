@@ -24,7 +24,7 @@ Latency is a metric used to measure the time delay in processing requests in a s
 * **Kubernetes infrastructure optimization:**\
     Boosts distributed key-value store efficiency by minimizing read latency through intelligent lease management.
 * **Read Latency Optimization:** \
-    Lease-Based reads maintain consistently low latency as cluster size increases, improving responsiveness for read-intensive workloads. This approach reduces coordination overhead compared to quorum-based methods, enhancing overall query performance. \
+    Lease-Based reads maintain consistently low latency as cluster size increases, improving responsiveness for read-intensive workloads. This approach reduces coordination overhead compared to quorum-based methods, enhancing overall query performance.
 
 *  **Academic Recogition:** \
   Highlighted in academic publications and technical reports addressing consistency optimization and latency reduction techniques for read operations in distributed key-value stores.
