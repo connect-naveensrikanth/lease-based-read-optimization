@@ -25,14 +25,13 @@ Latency is a metric used to measure the time delay in processing requests in a s
     Boosts distributed key-value store efficiency by minimizing read latency through intelligent lease management.
 * **Read Latency Optimization:** \
     Lease-Based reads maintain consistently low latency as cluster size increases, improving responsiveness for read-intensive workloads. This approach reduces coordination overhead compared to quorum-based methods, enhancing overall query performance. \
-  
-* ** Academic Recogition: **\
+
+*  **Academic Recogition:** \
   Featured in academic publications and technical reports centered on DNS resolution processes and efficiency gains within ETCD systems.
 * **Educational Impact:** \
-    need to add here
+    Adopted in research initiatives, fostering ongoing scholarly discussions about container management and optimization of cloud infrastructure performance.
 
 **Experimental Results (Summary)**
-
 
 | Cluster Size (Nodes) | ReadIndex Latency (ms) | Lease-Based Latency (ms)| Improvement (%) |
 | ---------------------| --------------------- | ------------------------ | ----------------|
@@ -55,5 +54,4 @@ Latency is a metric used to measure the time delay in processing requests in a s
 * [IJLRP Website](https://www.ijlrp.com/)
 
 **Author Contact** 
-  * LinkedIn: https://www.linkedin.com/in/naveensrikanth/
-  * Email: connect.naveensrikanth@gmail.com
+  * LinkedIn: https://www.linkedin.com/in/naveensrikanth/ |  Email: connect.naveensrikanth@gmail.com
