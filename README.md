@@ -13,14 +13,14 @@ In distributed systems like etcd, read index latency impacts the speed and effic
 Latency is a metric used to measure the time delay in processing requests in a system.
 
 **Key Contributions:** 
-* **Algorithm Development** \
+* **Algorithm Development:** \
   Designed and optimized Lease based latency methodology targetting by reducing the latency.
-* **Performance Comparison** \
+* **Performance Comparison:** \
   Conducted bench marking between ReadIndex Latency and Lease Based Latency.
-* **Reserach Leadership**
+* **Reserach Leadership:**
   Led the research and technical implementation , focusing on advancing distributed database through algorithm innovation.
 
-**Relevance & Real-World Impact**
+**Relevance & Real-World Impact:**
 * **Kubernetes infrastructure optimization:**\
     Boosts distributed key-value store efficiency by minimizing read latency through intelligent lease management.
 * **Read Latency Optimization:** \
@@ -31,7 +31,7 @@ Latency is a metric used to measure the time delay in processing requests in a s
 * **Educational Impact:** \
     Adopted in research initiatives, fostering ongoing scholarly discussions about container management and optimization of cloud infrastructure performance.
 
-**Experimental Results (Summary)**
+**Experimental Results (Summary):**
 
 | Cluster Size (Nodes) | ReadIndex Latency (ms) | Lease-Based Latency (ms)| Improvement (%) |
 | ---------------------| --------------------- | ------------------------ | ----------------|
@@ -41,17 +41,17 @@ Latency is a metric used to measure the time delay in processing requests in a s
 | 9                    | 9                     | 0.5                      | 94.44           |
 | 11                   | 11                    | 0.6                      | 94.55           |
 
-**Citation**
+**Citation:**
 * **Optimizing Read Performance in Distributed Key-Value Stores by Reducing the Read Latency**
 *   Naveen Srikanth Pasupuleti
 *   International Journal of Leading Research Publication
 *   E-ISSN-2582-8010
 
-**License**
+**License:**
 * This research is shared for academic and research purposes. For commercial use, please contact the author.
 
-**Resources**
+**Resources:**
 * [IJLRP Website](https://www.ijlrp.com/)
 
-**Author Contact** 
+**Author Contact:** 
   * LinkedIn: https://www.linkedin.com/in/naveensrikanth/ |  Email: connect.naveensrikanth@gmail.com
