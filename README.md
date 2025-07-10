@@ -28,7 +28,7 @@ Latency is a metric used to measure the time delay in processing requests in a s
 
 *  **Academic Recogition:** \
   Highlighted in academic publications and technical reports addressing consistency optimization and latency reduction techniques for read operations in distributed key-value stores.
-* **Educational Impact:** 
+* **Educational Impact:** \
     Incorporated into research and teaching efforts as a foundational study on improving read efficiency in distributed systems, encouraging scholarly exploration of coordination models and scalability in strongly consistent architectures.
 
 **Experimental Results (Summary):**
