@@ -27,9 +27,9 @@ Latency is a metric used to measure the time delay in processing requests in a s
     Lease-Based reads maintain consistently low latency as cluster size increases, improving responsiveness for read-intensive workloads. This approach reduces coordination overhead compared to quorum-based methods, enhancing overall query performance. \
 
 *  **Academic Recogition:** \
-  Featured in academic publications and technical reports centered on DNS resolution processes and efficiency gains within ETCD systems.
+  Highlighted in academic publications and technical reports addressing consistency optimization and latency reduction techniques for read operations in distributed key-value stores.
 * **Educational Impact:** \
-    Adopted in research initiatives, fostering ongoing scholarly discussions about container management and optimization of cloud infrastructure performance.
+    Incorporated into research and teaching efforts as a foundational study on improving read efficiency in distributed systems, encouraging scholarly exploration of coordination models and scalability in strongly consistent architectures.
 
 **Experimental Results (Summary):**
 
